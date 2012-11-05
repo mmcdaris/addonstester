@@ -6,7 +6,8 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'airbrake'
+# gem 'airbrake', :git => 'git://github.com/mmcdaris/airbrake.git'
+gem 'airbrake', :path => '/Users/Admin/projects/fork/airbrake'
 
 # Gems used only for assets and not required
 # in production environments by default.
